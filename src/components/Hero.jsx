@@ -208,7 +208,7 @@ const Hero = () => {
         animate="visible"
       >
         <Title variants={itemVariants}>
-          Abhishek_Joshi
+          Abhishek Joshi
         </Title>
         
         <Subtitle variants={itemVariants}>
