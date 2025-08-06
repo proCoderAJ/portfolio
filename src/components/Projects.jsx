@@ -6,12 +6,7 @@ import {
   ExternalLink, 
   Github, 
   Heart, 
-  Briefcase, 
-  Code2, 
-  Database,
-  Brain,
-  Users,
-  Shield
+  Briefcase
 } from 'lucide-react'
 
 const ProjectsSection = styled.section`

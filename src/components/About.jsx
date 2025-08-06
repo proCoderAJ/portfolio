@@ -221,7 +221,7 @@ const About = () => {
               Currently pursuing BTech in Computer Science from Maharana Pratap Engineering College with a CGPA of 8.21/10.0.
             </p>
             <p>
-              I love building visually appealing and efficient websites while conducting thorough data analyses. 
+              I love building visually appealing and efficient websites while conducting through data analysis. 
               My expertise spans across multiple programming languages and frameworks, with a strong focus on creating 
               innovative solutions that make a difference.
             </p>
@@ -231,7 +231,7 @@ const About = () => {
               whileTap={{ scale: 0.95 }}
             >
               <p>
-                "Passionate about turning complex problems into elegant solutions through code and data insights"
+                &ldquo;Passionate about turning complex problems into elegant solutions through code and data insights&rdquo;
               </p>
             </HighlightBox>
           </AboutText>

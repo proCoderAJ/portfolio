@@ -789,10 +789,10 @@ const Contact = () => {
           animate="visible"
         >
           <ContactHeader variants={itemVariants}>
-            <Title>Let's Connect!</Title>
+            <Title>Let&apos;s Connect!</Title>
             <Subtitle>
               Ready to collaborate on exciting projects? Have a question about my work? Or just want to say hello? 
-              I'd love to hear from you! Drop me a message below or reach out through any of my social channels.
+              I&apos;d love to hear from you! Drop me a message below or reach out through any of my social channels.
             </Subtitle>
           </ContactHeader>
 

@@ -10,7 +10,6 @@ import {
   Code2, 
   Brain,
   Building2,
-  Zap,
   Star
 } from 'lucide-react'
 

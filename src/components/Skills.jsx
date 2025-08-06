@@ -9,11 +9,7 @@ import {
   Cloud, 
   Wrench, 
   BookOpen, 
-  Trophy,
-  Cpu,
-  Palette,
-  BarChart3,
-  Shield
+  Trophy
 } from 'lucide-react'
 
 const SkillsSection = styled.section`
