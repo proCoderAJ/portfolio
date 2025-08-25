@@ -286,7 +286,7 @@ const Projects = () => {
       icon: Heart,
       title: "Heart Disease Prediction Web Application",
       date: "Jan 2025 - Feb 2025",
-      description: "A sophisticated web application to predict heart disease risks using machine learning. Built with Python, scikit-learn, and Pandas for the ML model, with an interactive frontend using HTML, CSS, and JavaScript.",
+      description: "A sophisticated web application to predict heart disease risks using machine learning. Built with technologies and frameworks like React 18, Vite, CSS, Lucide Reactand ESLint.",
       techStack: [
         { name: "Python", bgColor: "rgba(255, 212, 0, 0.2)", borderColor: "rgba(255, 212, 0, 0.3)" },
         { name: "Machine Learning", bgColor: "rgba(68, 68, 255, 0.2)", borderColor: "rgba(68, 68, 255, 0.3)" },
@@ -294,8 +294,8 @@ const Projects = () => {
         { name: "JavaScript", bgColor: "rgba(0, 255, 136, 0.2)", borderColor: "rgba(0, 255, 136, 0.3)" }
       ],
       links: [
-        { type: "github", url: "#", label: "View Code" },
-        { type: "demo", url: "#", label: "Live Demo" }
+        { type: "github", url: "https://github.com/proCoderAJ/Heart_Disease_web_App.git", label: "View Code" },
+        { type: "demo", url: "https://heart-disease-web-app-five.vercel.app/", label: "Live Demo" }
       ],
       color: "#FFD700"
     },

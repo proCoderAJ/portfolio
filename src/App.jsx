@@ -8,7 +8,7 @@ import BackgroundAnimation from './components/BackgroundAnimation'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <GlobalStyles />
       <BackgroundAnimation />
       <AnimatePresence mode="wait">
