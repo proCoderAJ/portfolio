@@ -11,6 +11,27 @@ import Footer from '../components/Footer'
 import ScrollProgress from '../components/ScrollProgress'
 
 const Home = () => {
+  const [isLoaded, setIsLoaded] = React.useState(false);
+
+  React.useEffect(() => {
+    setIsLoaded(true);
+  }, []);
+
+  if (!isLoaded) {
+    return (
+      <div style={{
+        minHeight: '100vh',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        background: '#1a1a2e',
+        color: 'white'
+      }}>
+        Loading...
+      </div>
+    );
+  }
+
   return (
     <motion.div
       initial={{ opacity: 0 }}

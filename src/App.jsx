@@ -8,15 +8,29 @@ import BackgroundAnimation from './components/BackgroundAnimation'
 
 function App() {
   return (
-    <Router basename="/portfolio">
+    <Router>
       <GlobalStyles />
-      <BackgroundAnimation />
-      <AnimatePresence mode="wait">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </AnimatePresence>
+      <div style={{ minHeight: '100vh', background: '#1a1a2e', color: 'white' }}>
+        <BackgroundAnimation />
+        <AnimatePresence mode="wait">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={
+              <div style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                minHeight: '100vh',
+                padding: '20px',
+                textAlign: 'center'
+              }}>
+                <h1>Page Not Found</h1>
+              </div>
+            } />
+          </Routes>
+        </AnimatePresence>
+      </div>
     </Router>
   )
 }
